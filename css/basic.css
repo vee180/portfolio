@@ -170,7 +170,7 @@ body {
 
 }
 
-@media (min-width: 1330px) {
+@media (min-width: 678px) {
 	.row .col.col-d-lg-12 {
 		width: 99.996%;
 	}
@@ -974,3 +974,20 @@ textarea.error::-webkit-input-placeholder {
 
 }
 
+.mobile-nav ul {
+	display: none;
+  }
+  
+  .mobile-nav input:checked ~ ul {
+	display: block;
+  }
+  
+  @media (min-width: 768px) {
+	.mobile-nav ul {
+	  display: flex;
+	}
+	
+	.mobile-nav label {
+	  display: none;
+	}
+  }

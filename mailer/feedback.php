@@ -3,7 +3,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 
 require 'PHPMailer.php';
-//require 'SMTP.php';
+require 'SMTP.php'; 
 require 'POP3.php';
 require 'form_setting.php';
 
